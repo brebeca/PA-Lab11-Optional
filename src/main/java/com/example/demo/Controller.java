@@ -3,13 +3,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.Serializable;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/players")
-public class Controller {
+public class Controller  {
     private Player player;
 
     /**
